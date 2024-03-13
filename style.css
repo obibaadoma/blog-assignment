@@ -101,7 +101,7 @@ footer {
   position: absolute;
   width: 81%;
   padding: 10px;
-  margin: 20px ;
+  margin: 20px;
 }
 
 footer a:first-child {
@@ -114,5 +114,3 @@ footer a:first-child {
   display: flex;
   gap: 5px;
 }
-
-
