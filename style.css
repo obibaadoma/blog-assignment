@@ -1,0 +1,85 @@
+/* General CSS Rules */
+:root {
+  --blue: #6070ff;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #e5e5e5;
+  
+}
+
+.header {
+   background-color: #04adc4;
+   /* background-image: url('img/headerimg.png');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat; */
+   }
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  margin-left: 240px;
+  margin-right: 200px;
+  height: 2.8rem;
+  list-style-type: none;
+  
+  }
+
+  .links li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.links li a {
+  display: block;
+  text-align: right;
+  padding-right: 28px;
+  text-decoration: none;
+}
+
+.image-icon {
+  height: 21rem;
+}
+
+.search-bar {
+   padding: 10px;
+  margin-top: 40px;
+  margin-left: 20px;
+ 
+}
+
+.search-bar form {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input{
+  padding: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 2rem;
+  width:800px;
+}
+
+.search-bar button {
+  padding: 5px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  width: 100px;
+  background-color: rgb(243, 125, 14);
+}
