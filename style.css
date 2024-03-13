@@ -94,3 +94,25 @@ figcaption {
   padding: 10px; /* Add some padding */
   color: #333; /* Set the text color */
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 81%;
+  padding: 10px;
+  margin: 20px ;
+}
+
+footer a:first-child {
+  margin-left: 5%;
+  color: rgb(240, 166, 7);
+  font-style: italic;
+}
+
+.powered-by {
+  display: flex;
+  gap: 5px;
+}
+
+
