@@ -20,13 +20,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
- }
+}
 
- .logo img {
+.logo img {
   margin-top: 10px;
   width: 50px; /* adjust as needed */
   height: 50px; /* maintain aspect ratio */
 }
+
 .links {
   display: flex;
   justify-content: flex-end;
