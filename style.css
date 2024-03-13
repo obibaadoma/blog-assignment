@@ -114,3 +114,57 @@ footer a:first-child {
   display: flex;
   gap: 5px;
 }
+
+/* CSS for tablet */
+@media (max-width: 768px) {
+  .links {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .search-bar input {
+    width: 90%;
+  }
+
+  .image-div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .image-class {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/* CSS for mobile */
+@media (max-width: 480px) {
+  .links {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .search-bar input {
+    width: 90%;
+  }
+
+  .image-div {
+    grid-template-columns: 1fr;
+  }
+
+  .image-class {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    width: 100%;
+  }
+}
